@@ -25,6 +25,7 @@
                 <td>{{ $user->email }}</td>
                 <td>
                     <a href="{{ route('users.edit', $user) }}">Editar</a>
+                    <a href="{{ route('users.show', $user) }}">Detalhes</a>
                 </td>
             </tr>
             @empty
